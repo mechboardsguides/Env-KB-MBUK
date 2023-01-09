@@ -8639,6 +8639,23 @@
     (pin "2" (uuid 77def3f1-5224-4d55-a154-75268486317d))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 167.64 249.555 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid ad0cbb1b-8e9b-4e36-8a5f-4bbb3e0cdf87)
+    (property "Reference" "H5" (id 0) (at 170.18 248.3866 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 170.18 250.698 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "EnvExtras:SMDNUT-M2" (id 2) (at 167.64 249.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 167.64 249.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 229.235 202.565 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b123f056-191b-4302-9c3e-f118c9190397)
@@ -9043,6 +9060,9 @@
     )
     (path "/00000000-0000-0000-0000-00006068a680"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "EnvExtras:SMDNUT-M2")
+    )
+    (path "/ad0cbb1b-8e9b-4e36-8a5f-4bbb3e0cdf87"
+      (reference "H5") (unit 1) (value "MountingHole") (footprint "EnvExtras:SMDNUT-M2")
     )
     (path "/00000000-0000-0000-0000-000060748b43"
       (reference "H6") (unit 1) (value "MountingHole") (footprint "EnvExtras:SMDNUT-M2")

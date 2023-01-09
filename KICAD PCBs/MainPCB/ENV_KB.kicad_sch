@@ -8546,6 +8546,23 @@
     (pin "2" (uuid 98baa52c-33e4-472b-9cde-bef009b48d60))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 167.64 249.555 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 7ded76f3-1df2-4d26-b7a3-0ed8a6f3e4b3)
+    (property "Reference" "H5" (id 0) (at 170.18 248.3866 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 170.18 250.698 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.5mm" (id 2) (at 167.64 249.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 167.64 249.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Device:D_Small") (at 212.09 185.42 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8005dfe6-768f-462e-a457-67be35f73621)
@@ -9009,6 +9026,9 @@
     )
     (path "/00000000-0000-0000-0000-00006068a680"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.5mm")
+    )
+    (path "/7ded76f3-1df2-4d26-b7a3-0ed8a6f3e4b3"
+      (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.5mm")
     )
     (path "/00000000-0000-0000-0000-000060748b43"
       (reference "H6") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.5mm")
